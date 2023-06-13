@@ -1,0 +1,13 @@
+[Unit]
+Description=Web-shutdown
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/masoko/git/web-shutdown/web-shutdown.py
+WorkingDirectory=/home/masoko/git/web-shutdown/
+User=root
+Group=root
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -7,7 +7,7 @@ def shutdown():
     system = platform.system()
     if system == 'Windows':
         os.system('shutdown /s /t 0')
-    elif system == 'Darwin' or system == 'Linux':
+    elif system == 'git a' or system == 'Linux':
         os.system('shutdown now')
     else:
         return "Shutdown not supported on this operating system."
