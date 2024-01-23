@@ -3,7 +3,7 @@ Shutdown a linux pc with a post request
 
 ## Installation
 ```bash
-git clone 
+git clone https://github.com/hjelev/web-shutdown.git
 cd web-shutdown
 pip install -r requirements.txt
 sudo cp web-shutdown.service /etc/systemd/system/
